@@ -1,3 +1,7 @@
+
+on :
+   workflow_dispatch
+
 deploy:
     name: Deploy
     needs: <upstream job>
